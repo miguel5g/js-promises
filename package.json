@@ -1,0 +1,16 @@
+{
+  "name": "js-promises",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "jest": "^28.1.2"
+  }
+}
